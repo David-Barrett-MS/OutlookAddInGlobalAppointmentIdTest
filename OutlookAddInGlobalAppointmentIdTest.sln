@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookAddInGlobalAppointmentIdTest", "OutlookAddInGlobalAppointmentIdTest.csproj", "{E458A080-1179-4F5E-979E-D4F093F755EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E458A080-1179-4F5E-979E-D4F093F755EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E458A080-1179-4F5E-979E-D4F093F755EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E458A080-1179-4F5E-979E-D4F093F755EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E458A080-1179-4F5E-979E-D4F093F755EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD8BA722-975D-41DB-B212-465E1C7F48E8}
+	EndGlobalSection
+EndGlobal
