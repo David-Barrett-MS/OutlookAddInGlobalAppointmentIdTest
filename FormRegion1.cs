@@ -1,10 +1,5 @@
 ﻿using Microsoft.Office.Interop.Outlook;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Office = Microsoft.Office.Core;
-using Outlook = Microsoft.Office.Interop.Outlook;
 
 namespace OutlookAddInGlobalAppointmentIdTest
 {
@@ -103,8 +98,8 @@ namespace OutlookAddInGlobalAppointmentIdTest
         private void buttonWatch_Click(object sender, EventArgs e)
         {
             FormIdWatcher watcher = new FormIdWatcher((AppointmentItem)this.OutlookItem);
-            watcher.Show();
             ((AppointmentItem)this.OutlookItem).Save();
+            watcher.Show();
             Globals.ThisAddIn.Application.ActiveInspector().Close(OlInspectorClose.olSave);
         }
     }

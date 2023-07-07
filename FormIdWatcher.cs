@@ -1,12 +1,5 @@
 ﻿using Microsoft.Office.Interop.Outlook;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace OutlookAddInGlobalAppointmentIdTest
@@ -17,6 +10,7 @@ namespace OutlookAddInGlobalAppointmentIdTest
         private Folder _appointmentFolder;
         private int _itemChangeCount = 0;
         private int _triggerChangeCount = 4;
+
         public FormIdWatcher(AppointmentItem WatchedAppointment)
         {
             InitializeComponent();
